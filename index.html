@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数学建模竞赛代码模板库 - 专科组D/E题</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/code-blocks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 侧边栏 -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>代码模板库</h2>
+                <button class="toggle-btn" id="toggleBtn">☰</button>
+            </div>
+            
+            <div class="sidebar-content">
+                <div class="language-tabs">
+                    <button class="tab-btn active" data-lang="matlab">MATLAB</button>
+                    <button class="tab-btn" data-lang="python">Python</button>
+                </div>
+                
+                <div class="menu-section">
+                    <h3>优化问题</h3>
+                    <ul>
+                        <li><a href="#linear-programming" data-section="linear-programming">线性规划</a></li>
+                        <li><a href="#nonlinear-optimization" data-section="nonlinear-optimization">非线性优化</a></li>
+                        <li><a href="#integer-programming" data-section="integer-programming">整数规划</a></li>
+                        <li><a href="#multi-objective" data-section="multi-objective">多目标优化</a></li>
+                        <li><a href="#genetic-algorithm" data-section="genetic-algorithm">遗传算法</a></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-section">
+                    <h3>统计分析</h3>
+                    <ul>
+                        <li><a href="#regression-analysis" data-section="regression-analysis">回归分析</a></li>
+                        <li><a href="#time-series" data-section="time-series">时间序列</a></li>
+                        <li><a href="#clustering" data-section="clustering">聚类分析</a></li>
+                        <li><a href="#hypothesis-testing" data-section="hypothesis-testing">假设检验</a></li>
+                        <li><a href="#correlation" data-section="correlation">相关性分析</a></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-section">
+                    <h3>图论算法</h3>
+                    <ul>
+                        <li><a href="#shortest-path" data-section="shortest-path">最短路径</a></li>
+                        <li><a href="#network-flow" data-section="network-flow">网络流</a></li>
+                        <li><a href="#minimum-spanning-tree" data-section="minimum-spanning-tree">最小生成树</a></li>
+                        <li><a href="#graph-coloring" data-section="graph-coloring">图着色</a></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-section">
+                    <h3>评价模型</h3>
+                    <ul>
+                        <li><a href="#ahp" data-section="ahp">层次分析法</a></li>
+                        <li><a href="#fuzzy-evaluation" data-section="fuzzy-evaluation">模糊评价</a></li>
+                        <li><a href="#topsis" data-section="topsis">TOPSIS法</a></li>
+                        <li><a href="#entropy-weight" data-section="entropy-weight">熵权法</a></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-section">
+                    <h3>数值计算</h3>
+                    <ul>
+                        <li><a href="#interpolation" data-section="interpolation">插值拟合</a></li>
+                        <li><a href="#numerical-integration" data-section="numerical-integration">数值积分</a></li>
+                        <li><a href="#differential-equations" data-section="differential-equations">微分方程</a></li>
+                        <li><a href="#monte-carlo" data-section="monte-carlo">蒙特卡罗</a></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-section">
+                    <h3>数据处理</h3>
+                    <ul>
+                        <li><a href="#data-preprocessing" data-section="data-preprocessing">数据预处理</a></li>
+                        <li><a href="#data-visualization" data-section="data-visualization">数据可视化</a></li>
+                        <li><a href="#file-operations" data-section="file-operations">文件操作</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- 主内容区 -->
+        <main class="main-content" id="mainContent">
+            <header class="content-header">
+                <h1>数学建模竞赛代码模板库</h1>
+                <p class="subtitle">专科组D/E题 - 全面的MATLAB和Python代码模板</p>
+            </header>
+            
+            <div class="content-body" id="contentBody">
+                <!-- 代码块将通过JavaScript动态加载 -->
+            </div>
+        </main>
+    </div>
+    
+    <!-- 复制成功提示 -->
+    <div class="copy-toast" id="copyToast">
+        代码已复制到剪贴板！
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="js/template-loader.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/sidebar.js"></script>
+</body>
+</html>
